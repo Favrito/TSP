@@ -1,6 +1,6 @@
 NAME : u1060
 COMMENT : Drilling problem problem (Reinelt)
-TYPE : TSP
+TYPE : tsp.TSP
 DIMENSION : 1060
 EDGE_WEIGHT_TYPE : EUC_2D
 BEST_KNOWN : 224094

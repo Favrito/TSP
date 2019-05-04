@@ -1,6 +1,6 @@
 NAME : rat783
 COMMENT : Rattled grid (Pulleyblank)
-TYPE : TSP
+TYPE : tsp.TSP
 DIMENSION : 783
 EDGE_WEIGHT_TYPE : EUC_2D
 BEST_KNOWN : 8806

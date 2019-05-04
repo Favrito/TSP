@@ -1,5 +1,5 @@
 NAME: lin318
-TYPE: TSP
+TYPE: tsp.TSP
 COMMENT: 318-city problem (Lin/Kernighan)
 DIMENSION: 318
 EDGE_WEIGHT_TYPE: EUC_2D

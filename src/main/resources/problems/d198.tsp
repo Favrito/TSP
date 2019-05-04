@@ -1,6 +1,6 @@
 NAME : d198
 COMMENT : Drilling problem (Reinelt)
-TYPE : TSP
+TYPE : tsp.TSP
 DIMENSION : 198
 EDGE_WEIGHT_TYPE : EUC_2D
 BEST_KNOWN : 15780

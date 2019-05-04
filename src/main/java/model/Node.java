@@ -1,8 +1,10 @@
+package model;
+
 /***************************
  * Project: tsp
  * Date: 20/02/2019
  * Author: Nicolas Favre
- * Description: 
+ * Description: Class for node position details
  ***************************/
 
 

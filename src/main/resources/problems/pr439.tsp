@@ -1,6 +1,6 @@
 NAME : pr439
 COMMENT : 439-city problem (Padberg/Rinaldi)
-TYPE : TSP
+TYPE : tsp.TSP
 DIMENSION : 439
 EDGE_WEIGHT_TYPE : EUC_2D
 BEST_KNOWN : 107217

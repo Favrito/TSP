@@ -1,6 +1,6 @@
 NAME : fl1577
 COMMENT : Drilling problem (Reinelt)
-TYPE : TSP
+TYPE : tsp.TSP
 DIMENSION : 1577
 EDGE_WEIGHT_TYPE : EUC_2D
 BEST_KNOWN : 22249

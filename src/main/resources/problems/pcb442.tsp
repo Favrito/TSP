@@ -1,6 +1,6 @@
 NAME : pcb442
 COMMENT : Drilling problem (Groetschel/Juenger/Reinelt)
-TYPE : TSP
+TYPE : tsp.TSP
 DIMENSION : 442
 EDGE_WEIGHT_TYPE : EUC_2D
 BEST_KNOWN : 50778

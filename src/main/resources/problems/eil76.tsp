@@ -1,6 +1,6 @@
 NAME : eil76
 COMMENT : 76-city problem (Christofides/Eilon)
-TYPE : TSP
+TYPE : tsp.TSP
 DIMENSION : 76
 EDGE_WEIGHT_TYPE : EUC_2D
 BEST_KNOWN : 538
