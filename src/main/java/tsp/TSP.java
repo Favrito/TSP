@@ -31,7 +31,7 @@ public class TSP {
         ParsedFile parsedFile = parser.readFile(fileName);
         this.distances = parsedFile.getMatrix();
         this.bestKnown = parsedFile.getBestKnown();
-        timeLimitMillis = 1000;
+        timeLimitMillis = 180000;
         this.allNodes = parsedFile.getAllNodes();
         // long seed = System.currentTimeMillis();
         random = new Random(1556969034975L);

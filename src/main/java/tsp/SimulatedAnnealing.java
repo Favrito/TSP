@@ -68,7 +68,7 @@ public class SimulatedAnnealing {
         int a = 0, b = 1, c = 2, d = 3;
 
         for (int i = 0; i < pos.length; i++)
-            pos[i] = random.nextInt((end - start - 1)) + start;
+                pos[i] = random.nextInt((end - start - 1)) + start;
 
         Arrays.sort(pos);
 
