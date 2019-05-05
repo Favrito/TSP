@@ -34,11 +34,10 @@ public class TwoOpt {
                         minChange = change;
                         min_i = i;
                         min_j = j;
+                        path = swapNodes(min_i, min_j);
                     }
                 }
             }
-
-            path = swapNodes(min_i, min_j);
         } while (minChange < 0);
     }
 

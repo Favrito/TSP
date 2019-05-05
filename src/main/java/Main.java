@@ -66,9 +66,9 @@ public class Main {
 
         // Write solution file and file for plot
         MyFileWriter.writeSolutionFile(fileName.substring(0, fileName.length()-4), distanceSA, pathSA, tsp.getAllNodes());
-        MyFileWriter.writePlotFile(pathSA, tsp.getAllNodes());
 
         // Plot tour
+        MyFileWriter.writePlotFile(pathSA, tsp.getAllNodes());
         GnuPlotUtils.plotTour();
 
         // Log execution time

@@ -38,6 +38,7 @@ public class SimulatedAnnealing {
         while (System.currentTimeMillis()-Timer.getStartTime() < timeLimitMillis && bestKnown != getDistance(distances, path)) {
             for (int i = 0; i < 100; i++) {
                 TwoOpt to = new TwoOpt(distances, positionSwap(positionSwap(current, 0, ((int)((double)current.length*0.5))), ((int)((double)current.length*0.5)), ((int)((double)current.length*1))));
+                to.solve();
                 Integer[] next = to.getPath();
                 int distNext = getDistance(distances, next);
                 int distCurrent = getDistance(distances, current);

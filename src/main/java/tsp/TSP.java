@@ -22,7 +22,7 @@ public class TSP {
     private Integer[] pathTO;
     private Integer[] pathSA;
     private int bestKnown;
-    private int timeLimitMillis;
+    private int timeLimitMillis = 160000;
     private List<Node> allNodes;
     private Random random;
 
@@ -31,9 +31,7 @@ public class TSP {
         ParsedFile parsedFile = parser.readFile(fileName);
         this.distances = parsedFile.getMatrix();
         this.bestKnown = parsedFile.getBestKnown();
-        timeLimitMillis = 180000;
         this.allNodes = parsedFile.getAllNodes();
-        // long seed = System.currentTimeMillis();
         random = new Random(1556969034975L);
     }
 
@@ -58,14 +56,6 @@ public class TSP {
         return pathSA;
     }
 
-    public int getBestKnown() {
-        return bestKnown;
-    }
-
-    public List<Node> getAllNodes() {
-        return allNodes;
-    }
-
     public int computeTotalDistance(Integer[] path) {
         int distance = 0;
 
@@ -74,6 +64,14 @@ public class TSP {
         }
 
         return distance;
+    }
+
+    public int getBestKnown() {
+        return bestKnown;
+    }
+
+    public List<Node> getAllNodes() {
+        return allNodes;
     }
 
 }
